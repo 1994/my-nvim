@@ -20,7 +20,7 @@ return require('packer').startup(function(use)
 			'kyazdani42/nvim-web-devicons', -- optional, for file icons
 		},
 	}
-	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+	use { 'nvim-treesitter/nvim-treesitter', run = 'TSUpdate' }
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use {
 		'numToStr/Comment.nvim',
