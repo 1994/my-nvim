@@ -1,4 +1,5 @@
 set number
+set relativenumber
 set termguicolors
 lua require('plugins')
 lua require('config')
